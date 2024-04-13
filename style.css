@@ -1,9 +1,12 @@
 
+
+
 /* estilos generales de la pagina, se aplican a todas las paginas */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #222;
 }
 
 /* estilos que se agregan al emcabezado de la pagina */
@@ -14,7 +17,8 @@ header {
     align-items: center; /* Centra verticalmente los elementos */
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
+    height: 50px;
 }
 
 /* Estilos para la navegación */
@@ -45,11 +49,16 @@ section {
 }
 
 section h2 {
-    color: #bb0c0c;
+    color: #84bb0c;
 }
 
+section h3 {
+  color: #15f0b5;
+}
+
+
 section p {
-    color: #0f0f0f;
+    color: #bc8821;
 }
 
 footer {
@@ -72,6 +81,7 @@ section.datos {
   }
   
   section.datos img {
+    
     width: 200px;
     height: auto;
     border-radius: 5px;
